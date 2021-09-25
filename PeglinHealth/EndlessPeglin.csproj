@@ -7,8 +7,8 @@
     <ProjectGuid>{03BBA194-DCBD-4729-A76B-FF01A9646B4A}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>PeglinHealth</RootNamespace>
-    <AssemblyName>PeglinHealth</AssemblyName>
+    <RootNamespace>EndlessPeglin</RootNamespace>
+    <AssemblyName>EndlessPeglin</AssemblyName>
     <TargetFrameworkVersion>v4.6</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <Deterministic>true</Deterministic>
