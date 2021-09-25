@@ -69,26 +69,5 @@ namespace EndlessPeglin
             return true;
         }
     }
-    /*
-     * 
-     [HarmonyPatch(typeof(PauseMenu), "Update")]
-     public class HealOnPausePatch
-     {
-         public static void Prefix()
-         {
-             UnityEngine.GameObject player = UnityEngine.GameObject.FindWithTag("Player");
-             player?.GetComponent<PlayerHealthController>()?.HealToFull();
-         }
-     }
-
-     [HarmonyPatch(typeof(BattleController), "DoAttack")]
-     public class StupidDamage
-     {
-         public static void Prefix(ref int ____damageBonus)
-         {
-             ____damageBonus = 650;
-         }
-     }
-    */
 
 }
