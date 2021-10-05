@@ -46,7 +46,6 @@ namespace EndlessPeglin
             {
                 UnityEngine.Debug.Log("Skipping deck instantiate");
                 return false;
-                
             }
             return true;
         }
@@ -64,7 +63,6 @@ namespace EndlessPeglin
             {
                 UnityEngine.Debug.Log("Skipping relic reset");
                 return false;
-
             }
             return true;
         }
