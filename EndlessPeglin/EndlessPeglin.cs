@@ -1,7 +1,5 @@
 ﻿using BepInEx;
 using HarmonyLib;
-using Relics;
-using System.Linq;
 
 namespace EndlessPeglin
 {
