@@ -12,7 +12,7 @@ and make a note of that if you decide to report a bug to the Peglin team.
 
 ## Installation guide
 1. Install the BepInEx modloader according to [this guide](https://docs.bepinex.dev/master/articles/user_guide/installation/unity_mono.html)
-2. Download the EndlessPeglin.dll file [from the latest release](https://github.com/bo0tzz/EndlessPeglin/releases/latest)
-3. Place EndlessPeglin.dll in the `BepInEx/plugins` folder, inside the game folder
+2. Download the EndlessPeglin.dll file [from the latest release](https://github.com/bo0tzz/EndlessPeglin/releases/latest/download/EndlessPeglin.dll)
+4. Place EndlessPeglin.dll in the `BepInEx/plugins` folder, inside the game folder
 
 Enjoy :)
