@@ -12,7 +12,7 @@ namespace EndlessPeglin
     {
         private const string modGuid = "me.bo0tzz.peglinmods.endless";
         private const string modName = "Endless Peglin";
-        private const string modVersion = "1.0.0.0";
+        private const string modVersion = "1.1.0";
         private readonly Harmony harmony = new Harmony(modGuid);
 
         void Awake()
