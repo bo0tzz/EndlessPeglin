@@ -1,5 +1,8 @@
-﻿using BepInEx;
+﻿using System.Collections.Generic;
+using System.Linq;
+using BepInEx;
 using HarmonyLib;
+using Relics;
 
 namespace EndlessPeglin
 {
@@ -53,16 +56,22 @@ namespace EndlessPeglin
     [HarmonyPatch(typeof(Relics.RelicManager), "Reset")]
     public class RelicResetPatch
     {
-        public static bool Prefix()
+        public static void Prefix(Dictionary<RelicEffect, Relic> ____ownedRelics, ref List<Relic> __state)
         {
+            if (____ownedRelics == null) return;
+            __state = ____ownedRelics.Values.ToList();
+        }
+
+        public static void Postfix(RelicManager __instance, ref List<Relic> __state)
+        {
+            if (__state == null) return;
             if (GameInitPatch.stolenLoadMapData != null && 
                 GameInitPatch.stolenLoadMapData.NewGame && 
                 UnityEngine.PlayerPrefs.GetInt(GameInit.BOSS_STREAK_PREF_STRING, 0) > 0)
             {
-                UnityEngine.Debug.Log("Skipping relic reset");
-                return false;
+                UnityEngine.Debug.Log("Re-adding relics after reset");
+                __state.ForEach(__instance.AddRelic);
             }
-            return true;
         }
     }
 
