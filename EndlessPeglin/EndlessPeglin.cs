@@ -6,14 +6,11 @@ using Relics;
 
 namespace EndlessPeglin
 {
-    [BepInPlugin(modGuid, modName, modVersion)]
+    [BepInPlugin(PluginInfo.PLUGIN_GUID, PluginInfo.PLUGIN_NAME, PluginInfo.PLUGIN_VERSION)]
     [BepInProcess("Peglin.exe")]
     public class EndlessPeglin : BaseUnityPlugin
     {
-        private const string modGuid = "me.bo0tzz.peglinmods.endless";
-        private const string modName = "Endless Peglin";
-        private const string modVersion = "1.1.0";
-        private readonly Harmony harmony = new Harmony(modGuid);
+        private readonly Harmony harmony = new Harmony(PluginInfo.PLUGIN_GUID);
 
         void Awake()
         {
