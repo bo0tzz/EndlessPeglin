@@ -1,7 +1,5 @@
 # Endless Peglin
 
-**This mod has not been updated for the early access release, but it mostly still works. Proceed at your own peril.**
-
 This is a mod for the Peglin Demo that prevents your progress 
 (relics and orb deck) from being reset when you start a new game,
 thus allowing you to loop endlessly while becoming ridiculously strong.
