@@ -4,7 +4,7 @@ schemaVersion = "0.0.1"
 [package]
 namespace = "bo0tzz"
 name = "EndlessPeglin"
-versionNumber = "1.2.0"
+versionNumber = "1.2.1"
 description = "Start new games with your orbs and relics from the previous run."
 websiteUrl = "https://github.com/bo0tzz/EndlessPeglin"
 containsNsfwContent = false
