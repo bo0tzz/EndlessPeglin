@@ -13,8 +13,7 @@ about the game breaks, consider that it might be caused by this (or another) mod
 and make a note of that if you decide to report a bug to the Peglin team.
 
 ## Installation guide
-1. Install the BepInEx modloader according to [this guide](https://docs.bepinex.dev/articles/user_guide/installation/index.html)
-2. Download the EndlessPeglin.dll file [from the latest release](https://github.com/bo0tzz/EndlessPeglin/releases/latest/download/EndlessPeglin.dll)
-4. Place EndlessPeglin.dll in the `BepInEx/plugins` folder, inside the game folder
+You can download the mod from [Thunderstore](https://peglin.thunderstore.io/).   
+See https://mods.pegl.in/ for links to the Discord and more.
 
 Enjoy :)
