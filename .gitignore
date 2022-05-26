@@ -364,3 +364,4 @@ FodyWeavers.xsd
 
 EndlessPeglin/Libs/
 .idea/
+.DS_Store
